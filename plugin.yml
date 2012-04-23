@@ -1,0 +1,9 @@
+name: DeathCount
+main: co.schill.deathcount.DeathCount
+version: 0.1.4
+commands:
+  printdeaths:
+    description: prints death counter
+    usage: /printdeaths [player]
+    permission: DeathCount.printdeaths
+    permission-message: You don't have DeathCount.printdeaths permission
